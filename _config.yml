@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Haroon的个人博客
+subtitle: '没人管的博客'
+description: '记录作者的一些历程，很杂乱，涉及很广...我也不知道我会什么'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: yhl
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: http://ytianxia6.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
