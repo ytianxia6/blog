@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate && node talk-auto-init.js",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "gen": "joplin-blog blog"
+    "gen": "joplin-blog blog",
+    "talk": "node talk-auto-init.js"
   },
   "hexo": {
     "version": "6.0.0"
