@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate && node talk-auto-init.js",
+    "build": "hexo generate && node gitalk-auto-init.js",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
