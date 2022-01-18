@@ -105,3 +105,10 @@ deploy:
   type: 'git'
   repository: git@github.com:ytianxia6/ytianxia6.github.io.git
   branch: main
+
+# hexo sitemap网站地图
+sitemap:
+  path: sitemap.xml
+  # 此配置跟后面新建的文件名相同
+  template: ./sitemap_template.xml
+
