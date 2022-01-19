@@ -5,12 +5,13 @@ const url = require('url');
 const request = require('request');
 const xmlParser = require('xml-parser');
 const md5 = require('md5');
+const { env } = require('process');
 
 // 配置信息
 const config = {
   username: 'ytianxia6', // GitHub repository 所有者，可以是个人或者组织。对应Gitalk配置中的owner
   repo: "ytianxia6.github.io", // 储存评论issue的github仓库名，仅需要仓库名字即可。对应 Gitalk配置中的repo
-  token: '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', // 前面申请的 personal access token
+  token: env.GITHUB_TOKEN, // 前面申请的 personal access token
   sitemap: path.join(__dirname, './public/sitemap.xml'), // 自己站点的 sitemap 文件地址
   cache: true, // 是否启用缓存，启用缓存会将已经初始化的数据写入配置的 gitalkCacheFile 文件，下一次直接通过缓存文件判断
   gitalkCacheFile: path.join(__dirname, './gitalk-init-cache.json'), // 用于保存 gitalk 已经初始化的 id 列表
