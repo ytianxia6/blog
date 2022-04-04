@@ -1410,9 +1410,9 @@ jake@^10.6.1:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
-joplin-api@^0.3.0:
+joplin-api@^0.3.2:
   version "0.3.3"
-  resolved "https://registry.npmjs.org/joplin-api/-/joplin-api-0.3.3.tgz"
+  resolved "https://registry.yarnpkg.com/joplin-api/-/joplin-api-0.3.3.tgz#674d80d5619f24e6a3323b45093809500428ecc7"
   integrity sha512-AvPuP7pQxB+1nk6gUogjxozH28P29xVvKScfZ3JIMvfySkRvxyhHVW2M1qxHiXqZDPeCfXpo7FqjRKEqvPtBLA==
   dependencies:
     "@liuli-util/object" "^3.2.7"
@@ -1421,10 +1421,10 @@ joplin-api@^0.3.0:
     node-fetch "^2.6.1"
     query-string "^6.13.7"
 
-joplin-blog@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.7.0.tgz#ffa1f75f1faef73854a9f41aac6bab629f0d2c3d"
-  integrity sha512-pTIsuKTELOREOc6AMZQHTzx63SIoKSV5f1xhlS7rSTmt05ii9xZqrseWYKI4ncc9sua/ZXMLE4Ink90yCtylTg==
+joplin-blog@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.7.2.tgz#46d0175dab76707c92e79ad0d0fa5d96b82d7f70"
+  integrity sha512-W1bVFkhWDLIUXIUkoB7M3Bb4TIRkaRcSBC6UrzTBz+gMqyhs2FA70tzViZ9YPuM+Oa9KgVQKHkaIi67XJKnN+A==
   dependencies:
     "@liuli-util/array" "^3.2.7"
     "@liuli-util/async" "^3.2.7"
@@ -1436,12 +1436,12 @@ joplin-blog@^0.7.0:
     figlet "^1.5.0"
     fs-extra "^9.0.1"
     i18next "^19.8.4"
-    joplin-api "^0.3.0"
+    joplin-api "^0.3.2"
     luxon "^1.25.0"
     mdast "^3.0.0"
     ora "^5.4.0"
     os-locale "^5.0.0"
-    prettier "^2.2.1"
+    prettier "^2.6.1"
     remark-gfm "^1.0.0"
     remark-parse "^9.0.0"
     remark-stringify "^9.0.1"
@@ -2095,10 +2095,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.2.1:
-  version "2.5.1"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.5.1.tgz"
-  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+prettier@^2.6.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
