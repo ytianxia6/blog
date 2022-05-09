@@ -31,6 +31,6 @@
     "xml-parser": "^1.2.1"
   },
   "devDependencies": {
-    "joplin-blog": "^0.7.0"
+    "joplin-blog": "^0.8.5"
   }
 }
