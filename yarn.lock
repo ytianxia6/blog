@@ -218,13 +218,6 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.21.0:
-  version "0.21.4"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.21.4.tgz"
-  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
-  dependencies:
-    follow-redirects "^1.14.0"
-
 bail@^1.0.0:
   version "1.0.5"
   resolved "https://registry.npmjs.org/bail/-/bail-1.0.5.tgz"
@@ -558,6 +551,11 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
+dayjs@^1.11.1:
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.2.tgz#fa0f5223ef0d6724b3d8327134890cfe3d72fbe5"
+  integrity sha512-F4LXf1OeU9hrSYRPTTj/6FbO4HTjPKXvEIC1P2kcnFurViINCVk3ZV0xAS3XVx9MkMsXbbqlK6hjseaYbgKEHw==
+
 debug@*, debug@4, debug@^4.0.0:
   version "4.3.3"
   resolved "https://registry.npmjs.org/debug/-/debug-4.3.3.tgz"
@@ -844,11 +842,6 @@ finalhandler@1.1.2:
     statuses "~1.5.0"
     unpipe "~1.0.0"
 
-follow-redirects@^1.14.0:
-  version "1.14.7"
-  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.7.tgz"
-  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
-
 forever-agent@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz#fbc71f0c41adeb37f96c577ad1ed42d8fdacca91"
@@ -858,6 +851,15 @@ form-data@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/form-data/-/form-data-3.0.1.tgz"
   integrity sha512-RHkBKtLWUVwd7SqRIvCZMEvAMoGUp0XU+seQiZejj0COz3RI3hWP4sCv3gZWWLjJTd7rGwcsF5eKZGii0r/hbg==
+  dependencies:
+    asynckit "^0.4.0"
+    combined-stream "^1.0.8"
+    mime-types "^2.1.12"
+
+form-data@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.0.tgz#93919daeaf361ee529584b9b31664dc12c9fa452"
+  integrity sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
@@ -1410,21 +1412,20 @@ jake@^10.6.1:
     filelist "^1.0.1"
     minimatch "^3.0.4"
 
-joplin-api@^0.3.0:
-  version "0.3.3"
-  resolved "https://registry.npmjs.org/joplin-api/-/joplin-api-0.3.3.tgz"
-  integrity sha512-AvPuP7pQxB+1nk6gUogjxozH28P29xVvKScfZ3JIMvfySkRvxyhHVW2M1qxHiXqZDPeCfXpo7FqjRKEqvPtBLA==
+joplin-api@0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/joplin-api/-/joplin-api-0.4.1.tgz#f1b1c6f82a5b1dc99634d088fa08db18c3a1c072"
+  integrity sha512-58gHWxNi++70QiS4ykXrsUp2QsPUZA+KW0PhKh4UERubqg/1S8JGAUkCq0rgqvOG8jGZHakHVV2W7lBt0q27Qg==
   dependencies:
     "@liuli-util/object" "^3.2.7"
-    axios "^0.21.0"
-    form-data "^3.0.0"
+    form-data "^4.0.0"
     node-fetch "^2.6.1"
     query-string "^6.13.7"
 
-joplin-blog@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.7.0.tgz#ffa1f75f1faef73854a9f41aac6bab629f0d2c3d"
-  integrity sha512-pTIsuKTELOREOc6AMZQHTzx63SIoKSV5f1xhlS7rSTmt05ii9xZqrseWYKI4ncc9sua/ZXMLE4Ink90yCtylTg==
+joplin-blog@^0.8.5:
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/joplin-blog/-/joplin-blog-0.8.5.tgz#d0eaa6ab5f4aebddcb3e01c7774bc9399e979596"
+  integrity sha512-b7us7tuk/lhI5xHMZwhD1C5Vd2pWDTDt+6UocI7HAEhiaPADtssvo+MXqJ6TvNSWs/VlHzNE5zJ7IS04VKvQjQ==
   dependencies:
     "@liuli-util/array" "^3.2.7"
     "@liuli-util/async" "^3.2.7"
@@ -1433,15 +1434,15 @@ joplin-blog@^0.7.0:
     "@liuli-util/tree" "^3.2.7"
     comlink "^4.3.1"
     commander "^7.2.0"
+    dayjs "^1.11.1"
     figlet "^1.5.0"
     fs-extra "^9.0.1"
     i18next "^19.8.4"
-    joplin-api "^0.3.0"
-    luxon "^1.25.0"
+    joplin-api "0.4.1"
     mdast "^3.0.0"
     ora "^5.4.0"
     os-locale "^5.0.0"
-    prettier "^2.2.1"
+    prettier "^2.6.1"
     remark-gfm "^1.0.0"
     remark-parse "^9.0.0"
     remark-stringify "^9.0.1"
@@ -1581,11 +1582,6 @@ lower-case@^2.0.2:
   integrity sha512-7fm3l3NAF9WfN6W3JOmf5drwpVqX78JtoGJ3A6W0a6ZnldM41w2fV5D490psKFTpMds8TJse/eHLFFsNHHjHgg==
   dependencies:
     tslib "^2.0.3"
-
-luxon@^1.25.0:
-  version "1.28.0"
-  resolved "https://registry.npmjs.org/luxon/-/luxon-1.28.0.tgz"
-  integrity sha512-TfTiyvZhwBYM/7QdAVDh+7dBTBA29v4ik0Ce9zda3Mnf8on1S5KJI8P2jKFZ8+5C0jhmr0KwJEO/Wdpm0VeWJQ==
 
 map-age-cleaner@^0.1.3:
   version "0.1.3"
@@ -2095,10 +2091,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prettier@^2.2.1:
-  version "2.5.1"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-2.5.1.tgz"
-  integrity sha512-vBZcPRUR5MZJwoyi3ZoyQlc1rXeEck8KgeC9AwwOn+exuxLxq5toTRDTSaVrXHxelDMHy9zlicw8u66yxoSUFg==
+prettier@^2.6.1:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
+  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
